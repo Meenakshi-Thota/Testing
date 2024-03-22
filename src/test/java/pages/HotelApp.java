@@ -9,6 +9,7 @@ public class HotelApp {
 		WebDriver driver;
 		public HotelApp(WebDriver driver) {
 			this.driver=driver;
+			System.out.println("driver");
 		}
 		By uname=By.id("username");
 		By pw=By.id("password");
